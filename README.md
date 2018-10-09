@@ -12,6 +12,8 @@ spring注解驱动开发主要讲解如下方面知识点：
 #### AnnotationConfigApplicationContext
 #### 组件添加
 * @ComponentScan
+** value：指定要扫描的包
+** 
 * @Bean
 * @Configuration
 * @Component
