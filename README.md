@@ -47,4 +47,5 @@ spring注解驱动开发主要讲解如下方面知识点：
 * 构造器注入
 * ApplicationContextAware-->ApplicationContextAwareProcessor
 
-
+#### AOP
+#### 声明式事务
