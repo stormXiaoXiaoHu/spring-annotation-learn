@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+        http://www.springframework.org/schema/context">
+    <!--包扫描， 只要标注了@Controller、@Service、@Repository、@Component&ndash;&gt;
+        use-default-filters: 默认是true, false表示：禁用默认规则， 只包含[includeFilters]才生效
+    -->
+    <!--<context:component-scan base-package="com.atguigu" use-default-filters="false"></context:component-scan>-->
+
+    <bean id="person" class="com.atguigu.bean.Person" scope="prototype" init-method="" destroy-method="">
+        <property name="age" value="18"></property>
+        <property name="name" value="zhangsan"></property>
+    </bean>
+
+    <!--加载外部配置文件-->
+    <context:property-placeholder location="classpath:person.properties"></context:property-placeholder>
+
+
+</beans>
