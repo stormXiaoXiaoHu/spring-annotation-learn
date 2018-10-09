@@ -30,7 +30,9 @@ spring注解驱动开发主要讲解如下方面知识点：
 * 工厂模式
 #### 组件赋值
 * @Value
-* @Autowied
+* @Autowied： 
+  1. @Qualifier
+  2. 其他方式： @Resource（JSR250）、@Inject(JSR330， 需要导入
 * @PropertySource
 * @PropertySources
 * @Profiles
