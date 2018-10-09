@@ -11,19 +11,19 @@ spring注解驱动开发主要讲解如下方面知识点：
 ###  1.容器
 #### AnnotationConfigApplicationContext
 #### 组件添加
-@ComponentScan
-@Bean
-@Configuration
-@Component
-@Service
-@Controller
-@Repository
-@Conditional
-@Primary
-@Lazy
-@Scope
-@Import
-@ImportSelector
-工厂模式
+* @ComponentScan
+* @Bean
+* @Configuration
+* @Component
+* @Service
+* @Controller
+* @Repository
+* @Conditional
+* @Primary
+* @Lazy
+* @Scope
+* @Import
+* @ImportSelector
+* 工厂模式
 #### 组件赋值
 #### 组件注入
