@@ -9,7 +9,9 @@ spring注解驱动开发主要讲解如下方面知识点：
 ## 具体知识点
 
 ###  1.容器
-#### AnnotationConfigApplicationContext
+
+    AnnotationConfigApplicationContext
+
 #### 组件添加
 * @ComponentScan
    1. value：指定要扫描的包
@@ -28,6 +30,7 @@ spring注解驱动开发主要讲解如下方面知识点：
 * @Import
 * @ImportSelector
 * 工厂模式
+
 #### 组件赋值
 * @Value
 * @Autowied： 
@@ -38,8 +41,10 @@ spring注解驱动开发主要讲解如下方面知识点：
 * @Profiles
   1. Enviroment
   2. -Dspring.profiles.active=test
+
 #### 组件注入
 * 方法参数
 * 构造器注入
 * ApplicationContextAware-->ApplicationContextAwareProcessor
-* 
+
+
