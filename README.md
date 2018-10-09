@@ -29,4 +29,9 @@ spring注解驱动开发主要讲解如下方面知识点：
 * @ImportSelector
 * 工厂模式
 #### 组件赋值
+* @Value
+* @Autowied
+* @PropertySource
+* @PropertySources
+* @Profiles
 #### 组件注入
