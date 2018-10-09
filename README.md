@@ -12,8 +12,9 @@ spring注解驱动开发主要讲解如下方面知识点：
 #### AnnotationConfigApplicationContext
 #### 组件添加
 * @ComponentScan
-** value：指定要扫描的包
-** 
+* value：指定要扫描的包
+* excludeFilters = Filter[]: 指定扫描的时候按照什么规则排除那些组件
+* includeFilters = Filter[] : 指定扫描的时候只需要包含那些组件
 * @Bean
 * @Configuration
 * @Component
